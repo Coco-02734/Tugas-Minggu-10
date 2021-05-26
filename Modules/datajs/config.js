@@ -5,6 +5,7 @@ var alamat = document.getElementById("alamat");
 var notlpn = document.getElementById("notlpn");
 function prosesCari() {
     alertProses();
+    $("#email").val("");
     $.ajax({
         type: "POST",
         url: baseurl + "Data_user/data/pencarian",
