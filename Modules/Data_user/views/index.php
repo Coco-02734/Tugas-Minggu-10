@@ -16,7 +16,7 @@
 <body>
     <div class="container mt-3">
         <h2 class="text-center">Data User</h2>
-        <form class="col-lg-6">
+        <div class="col-lg-6">
             <div class="mb-3">
                 <label for="email" class="form-label">Email User</label>
                 <input type="text" class="form-control" name="email" id="email">
@@ -25,7 +25,7 @@
                 </div>
             </div>
 
-        </form>
+        </div>
         <div class="mt-3 col-lg-10" id="card_hasil">
             <div class="card">
                 <div class="card-body">
